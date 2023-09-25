@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+ <body>
+
+   <div>
+     <h1>example layout using Flexbox</h1>
+   </div>
+   <h4>example 1: justify-content vs. align-items</h4>
+
+   <div class="parent example1">
+
+     <div class="child red">
+
+     </div>
+
+     <div class="child yellow">
+
+     </div>
+
+   </div>
+
+   <h4>example 2: order, flex, and the importance of specificity</h4>
+   <div class="parent example2">
+     <div class="mainbox">
+       <p>this is my main content. this is my main content. this is my main content. this is my main content.
+         This is my main content. this is my main content. this is my main content. this is my main content.
+         This is my main content. this is my main content. this is my main content. this is my main content.
+         This is my main content. this is my main content. this is my main content. this is my main content.
+       </p>
+       <p>this is my main content. this is my main content. this is my main content. this is my main content.
+         This is my main content. this is my main content. this is my main content. this is my main content.
+         This is my main content. this is my main content. this is my main content. this is my main content.
+         This is my main content. this is my main content. this is my main content. this is my main content.
+       </p>
+     </div>
+     <div class="aside1">
+       <p>this could contact information, links to all the pages in you site, or an adivertisement? this
+          could be contact information, links to all the pages in you site, or an adivertisement? this could be
+          contact information, link to all the pages in your site, or an advertisement? this could contact
+          information, link to all the pages in your site, or an advertisement? this could contact
+          information, link to all the pages in your site, or an advertisement? this could contact
+          information, link to all the pages in your site, or an advertisement? </p>
+      </div>
+      <div class="aside2">
+        <p>This could be the featured animal of the month. it could be the sale of the week. It could be link to
+          the rest of your site. it could be additional; information related to the main topic, or even an
+          advertisement. </p>
+      </div>
+   </div>
+
+   <h4>Example 3: nested flexbox: Understanding parent, child, and grandchild elements</h4>
+
+   <div class="parent example3">
+
+     <div class="child red">
+       <p>I'm a child</p>
+     </div>
+
+     <div class="child yellow">
+       <p>I'm a child</p>
+       <div class="child grandchild purple">
+         <p>I'm a child but also a grandchild!</p>
+       </div>
+
+       <div class="child grandchild orange">
+         <p>I'm a child but also a grandchild!</p>
+       </div>
+
+     </div>
+   </div>
+  </body>
+  </html>
