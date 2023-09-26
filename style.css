@@ -54,3 +54,53 @@
 .example3  .child {
   flex:1;
 }
+
+.purple {
+  background-color:purple;
+}
+.orange {
+  background-color:orange;
+}
+
+.row {
+  display:flex;
+  flex-direction:row;
+  margin:2px;
+}
+.exampl4 {
+  flex-direction:column;
+}
+
+.light {
+  background-color:lightblue;
+  min-height:50px;
+  min-width:50px;
+  flex:6;
+}
+.dark {
+  background-color:blue;
+  min-height:10px;
+  min-width:10px;
+  flex:1;
+}
+
+.example5 {
+  flex-direction:column;
+}
+.yellowline {
+  min-height:30px;
+  margin:3px;
+  background-color:yellow;
+  flex:1;
+}
+.bars {
+  display:flex;
+  flex-direction:row;
+  flex:6;
+  justify-content:space-around;
+}
+.bar {
+  background-color:teal;
+  width:20%;
+  min-height:300px;
+}
